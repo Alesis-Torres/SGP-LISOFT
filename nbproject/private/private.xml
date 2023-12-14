@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLFormularioSolicitudCambioController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLActividadesSinAsignarController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLMenuDefectosDesarrolladorController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/DefectoDAO.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLActividadesAsignadasController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLConsultarListaDefectosController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/Defecto.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLMenuPrincipalDesarrolladorController.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/Usuario.java</file>
+            <file>file:/C:/Users/Miguel%20Caixba/OneDrive%20-%20Universidad%20Veracruzana/proyecto%20v2%20(con%20regresar%20y%20scene)/Proyecto/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/DesarrolladorDAO.java</file>
+        </group>
+        <group name="Group 20230418-09:30:08">
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/DefectoDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/SolicitudCambio.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/TipoProyecto.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/ActividadDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLConsultarListaDefectosController.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/DesarrolladorDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/SolicitudCambioDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/ResponsableProyecto.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/CatalogoDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/dao/CambioDAO.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLMenuPrincipalDesarrolladorController.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLRegistrarCambioController.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLBitacoraDesarrolladorController.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/Defecto.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/modelo/pojo/TipoCambio.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLRegistrarDefectoController.java</file>
+            <file>file:/C:/Users/alesi/Desktop/Construccion2/JavaFXSGP_LISOFT/src/javafxsgp_lisoft/controladores/FXMLConsultarListaBitacorasController.java</file>
+        </group>
+    </open-files>
+</project-private>
