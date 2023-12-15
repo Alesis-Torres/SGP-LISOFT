@@ -125,7 +125,7 @@ public class FXMLConsultarListaDefectosController implements Initializable {
                   FXMLMenuDefectosDesarrolladorController controler = loader.getController();
                   controler.inicializarInformacion(usuarioDesarrollador);
                   stageActual.setScene(escena);
-                  stageActual.setTitle("Bitacora del desarrollador");
+                  stageActual.setTitle("Menú Principal");
                   stageActual.show();
               } catch (IOException ex) {
                   Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -139,7 +139,7 @@ public class FXMLConsultarListaDefectosController implements Initializable {
                 FXMLMenuPrincipalResponsableController controler = loader.getController();
                 controler.inicializarInformacionResponsable(usuarioResponsable);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menú Principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);

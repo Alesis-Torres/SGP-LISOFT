@@ -11,7 +11,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -50,7 +49,7 @@ public class FXMLMenuActividadesResponsableController implements Initializable {
                 FXMLMenuPrincipalResponsableController controler = loader.getController();
                 controler.inicializarInformacionResponsable(usuarioResponsable);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menú Principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -65,7 +64,7 @@ public class FXMLMenuActividadesResponsableController implements Initializable {
             FXMLFormularioActividadController controler = loader.getController();
             Stage escenario = new Stage();
             escenario.setScene(escena);
-            escenario.setTitle("Crear Actividad");
+            escenario.setTitle("Formulario Actividad");
             escenario.initModality(Modality.APPLICATION_MODAL);
             escenario.show();
         } catch (IOException ex) {

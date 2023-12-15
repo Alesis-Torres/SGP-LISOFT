@@ -47,7 +47,7 @@ public class FXMLMenuCambiosResponsableController implements Initializable {
                 FXMLMenuPrincipalResponsableController controler = loader.getController();
                 controler.inicializarInformacionResponsable(usuarioResponsable);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menú Principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -64,7 +64,7 @@ public class FXMLMenuCambiosResponsableController implements Initializable {
                 FXMLListaSolicitudesCambioController controler = loader.getController();
                 controler.inicializarInformacion(usuarioResponsable);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Analizar solciitud de cambio");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);

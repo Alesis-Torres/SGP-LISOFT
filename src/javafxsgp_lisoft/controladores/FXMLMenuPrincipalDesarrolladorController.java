@@ -60,7 +60,7 @@ public class FXMLMenuPrincipalDesarrolladorController implements Initializable {
             FXMLMenuActividadesDesarrolladorController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioDesarrollador);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Menu de actividades");
+            escenarioBase.setTitle("Menu de Actividades");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -76,7 +76,7 @@ public class FXMLMenuPrincipalDesarrolladorController implements Initializable {
             FXMLMenuCambiosDesarrolladorController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioDesarrollador);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Menu de cambios");
+            escenarioBase.setTitle("Menu de Cambios");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -92,7 +92,7 @@ public class FXMLMenuPrincipalDesarrolladorController implements Initializable {
             FXMLMenuDefectosDesarrolladorController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioDesarrollador);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Menu de defectos");
+            escenarioBase.setTitle("Menu de Defectos");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -108,7 +108,7 @@ public class FXMLMenuPrincipalDesarrolladorController implements Initializable {
             FXMLConsultarListaBitacorasController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioDesarrollador, null);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Lista de bitacoras");
+            escenarioBase.setTitle("Lista de Bitacoras");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();

@@ -1,7 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+*Autor: Martínez Caixba Miguel Ángel
+*Fecha de creación: 10/11/2023
+*Fecha de modificación: 17/11/2023
+*Descripción: Controlador de la vista de la bitacora del desarrollador
+*/
 package javafxsgp_lisoft.controladores;
 
 import java.net.URL;
@@ -214,8 +216,8 @@ private int idSolicitudCambio;
     }
     
     private void establecerEstiloNormal(){
-        taImpactoCambio.setStyle(Constantes.ESTILO_ERROR);
-        taAccionPropuesta.setStyle(Constantes.ESTILO_ERROR);
+        taImpactoCambio.setStyle(Constantes.ESTILO_NORMAL);
+        taAccionPropuesta.setStyle(Constantes.ESTILO_NORMAL);
     }
 
     @FXML

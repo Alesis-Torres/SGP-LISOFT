@@ -133,7 +133,7 @@ public class FXMLConsultarListaBitacorasController implements Initializable {
                   FXMLMenuPrincipalDesarrolladorController controler = loader.getController();
                   controler.inicializarInformacion(usuarioDesarrollador);
                   stageActual.setScene(escena);
-                  stageActual.setTitle("Bitacora del desarrollador");
+                  stageActual.setTitle("Menu principal");
                   stageActual.show();
               } catch (IOException ex) {
                   Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -147,7 +147,7 @@ public class FXMLConsultarListaBitacorasController implements Initializable {
                 FXMLMenuPrincipalResponsableController controler = loader.getController();
                 controler.inicializarInformacionResponsable(usuarioResponsable);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menu Principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -155,8 +155,6 @@ public class FXMLConsultarListaBitacorasController implements Initializable {
         }
         
     }
-    
-
     
     private void configurarBusquedaTabla(){
         if(bitacoras.size()>0){
@@ -247,6 +245,4 @@ public class FXMLConsultarListaBitacorasController implements Initializable {
                     "Por favor, selecciona una bitacora antes de continuar", Alert.AlertType.WARNING);
         }
     }
-
-    
 }

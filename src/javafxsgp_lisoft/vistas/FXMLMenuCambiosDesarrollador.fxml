@@ -36,7 +36,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                      <image>
-                        <Image url="@../recursos/menu%20cambio/Crear%20solicitud.png" />
+                        <Image url="@../recursos/menu%20cambio/Menú%20Proyectos%20(1).png" />
                      </image></ImageView>
                </children>
             </Pane>

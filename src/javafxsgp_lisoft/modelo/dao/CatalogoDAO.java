@@ -13,15 +13,6 @@ import javafxsgp_lisoft.respuesta.ListaBitacoraRespuesta;
 import javafxsgp_lisoft.respuesta.ListaTipoCambioRespuesta;
 import javafxsgp_lisoft.utils.Constantes;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author alesi
- */
 public class CatalogoDAO {
 
     public static ListaTipoCambioRespuesta obtenerTiposCambio() {

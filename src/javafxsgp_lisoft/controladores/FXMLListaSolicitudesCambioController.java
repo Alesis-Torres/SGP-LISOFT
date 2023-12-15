@@ -55,10 +55,6 @@ public class FXMLListaSolicitudesCambioController implements Initializable {
     private TableColumn colFechaSolicitud;
     private ResponsableProyecto usuarioResponsable;
     
-    
-    
-
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         configurarTvSolicitudesCambio();
@@ -111,17 +107,14 @@ public class FXMLListaSolicitudesCambioController implements Initializable {
                 FXMLLoader loader = 
                     new FXMLLoader(JavaFXSGP_LISOFT.class.getResource("vistas/FXMLEvaluarSolicitudDeCambio.fxml"));
                 Parent vista = loader.load();
-                Scene escena = new Scene(vista);
-                
+                Scene escena = new Scene(vista);                
                 FXMLEvaluarSolicitudDeCambioController controlador = loader.getController();
-                controlador.inicializarInformacion(idSolicitudCambio);
-                
+                controlador.inicializarInformacion(idSolicitudCambio);                
                 Stage stageActual = new Stage();
                 stageActual.setScene(escena);
                 stageActual.setTitle("Analizar solicitud de cambio");
                 stageActual.initModality(Modality.APPLICATION_MODAL);
-                stageActual.showAndWait();
-                
+                stageActual.showAndWait();                
                 cargarInformacionTvSolicitudesCambio();
             } catch (IOException ex) {
                 ex.printStackTrace();
@@ -143,7 +136,7 @@ public class FXMLListaSolicitudesCambioController implements Initializable {
             FXMLMenuCambiosResponsableController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioResponsable);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Lista de cambios");
+            escenarioBase.setTitle("Menú Principal");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();

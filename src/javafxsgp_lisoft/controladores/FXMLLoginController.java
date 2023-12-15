@@ -165,7 +165,7 @@ public class FXMLLoginController implements Initializable {
                 FXMLMenuPrincipalDesarrolladorController controler = loader.getController();
                 controler.inicializarInformacion(desarrolladorLogin);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Home");
+                stageActual.setTitle("Menú Principal");
                 stageActual.show();
 
             } catch (IOException ex) {
@@ -182,7 +182,7 @@ public class FXMLLoginController implements Initializable {
             FXMLMenuPrincipalResponsableController controler = loader.getController();
             controler.inicializarInformacionResponsable(usuarioAutenticado);
             stageActual.setScene(escena);
-            stageActual.setTitle("Home");
+            stageActual.setTitle("Menú Principal");
             stageActual.showAndWait();
         } catch (IOException ex) {
             ex.printStackTrace();

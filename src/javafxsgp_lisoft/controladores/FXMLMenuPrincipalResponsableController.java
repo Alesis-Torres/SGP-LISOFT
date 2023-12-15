@@ -76,7 +76,7 @@ public class FXMLMenuPrincipalResponsableController implements Initializable {
             FXMLMenuActividadesResponsableController controler = accesoControlador.getController();
             controler.inicializarInformacion(usuarioResponsable);
             escenarioBase.setScene(new Scene (vista));
-            escenarioBase.setTitle("Lista de bitácoras");
+            escenarioBase.setTitle("Menu actividad");
             escenarioBase.show();
         } catch (IOException ex) {
             ex.printStackTrace();

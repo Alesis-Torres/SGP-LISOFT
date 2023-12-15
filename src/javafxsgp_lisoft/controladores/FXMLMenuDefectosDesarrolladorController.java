@@ -24,16 +24,10 @@ import javafxsgp_lisoft.JavaFXSGP_LISOFT;
 import javafxsgp_lisoft.modelo.pojo.Desarrollador;
 import javafxsgp_lisoft.utils.Utilidades;
 
-/**
- * FXML Controller class
- *
- * @author alesi
- */
 public class FXMLMenuDefectosDesarrolladorController implements Initializable {
     private Desarrollador usuarioDesarrollador;
     @FXML
     private Label lblTituloVista;
-    
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -54,7 +48,7 @@ public class FXMLMenuDefectosDesarrolladorController implements Initializable {
                   FXMLConsultarListaDefectosController controler = loader.getController();
                   controler.inicializarInformacion(usuarioDesarrollador,null);
                   stageActual.setScene(escena);
-                  stageActual.setTitle("Menu principal");
+                  stageActual.setTitle("Lista de Defectos");
                   stageActual.show();
               } catch (IOException ex) {
                   Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -74,7 +68,7 @@ public class FXMLMenuDefectosDesarrolladorController implements Initializable {
             
             Stage stageActual = new Stage();
             stageActual.setScene(escena); 
-            stageActual.setTitle("Menú principal");
+            stageActual.setTitle("Registrar Defecto");
             stageActual.initModality(Modality.APPLICATION_MODAL);
             stageActual.showAndWait();
         } catch (IOException ex) {
@@ -92,11 +86,10 @@ public class FXMLMenuDefectosDesarrolladorController implements Initializable {
                 FXMLMenuPrincipalDesarrolladorController controler = loader.getController();
                 controler.inicializarInformacion(usuarioDesarrollador);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menu principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
         } 
     }
-    
 }

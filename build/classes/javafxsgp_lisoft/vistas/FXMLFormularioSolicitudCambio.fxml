@@ -8,9 +8,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxsgp_lisoft.controladores.FXMLFormularioSolicitudCambioController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxsgp_lisoft.controladores.FXMLFormularioSolicitudCambioController">
    <children>
-      <Pane prefHeight="620.0" prefWidth="900.0">
+      <Pane prefHeight="620.0" prefWidth="883.0">
          <children>
             <Pane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: gray;">
                <children>
@@ -26,44 +26,49 @@
                   </ImageView>
                </children>
             </Pane>
-            <TextArea fx:id="taImpactoCambio" layoutY="460.0" prefHeight="60.0" prefWidth="900.0" promptText="Impacto del cambio" />
-            <TextArea fx:id="taDescripcionCambio" layoutY="259.0" prefHeight="60.0" prefWidth="900.0" promptText="Descricion del cambio" />
-            <TextArea fx:id="taAccionPropuesta" layoutY="560.0" prefHeight="57.0" prefWidth="900.0" promptText="Accion propuesta" />
-            <Label layoutX="6.0" layoutY="142.0" text="Nombre de solicitud">
+            <TextArea fx:id="taImpactoCambio" layoutX="7.0" layoutY="435.0" prefHeight="60.0" prefWidth="878.0" promptText="Impacto del cambio" />
+            <TextArea fx:id="taDescripcionCambio" layoutX="7.0" layoutY="234.0" prefHeight="60.0" prefWidth="878.0" promptText="Descricion del cambio" />
+            <TextArea fx:id="taAccionPropuesta" layoutX="7.0" layoutY="539.0" prefHeight="69.0" prefWidth="878.0" promptText="Accion propuesta" />
+            <Label layoutX="10.0" layoutY="119.0" text="Nombre de solicitud">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <TextField fx:id="tfNombreSolicitud" layoutY="176.0" prefHeight="31.0" prefWidth="361.0" promptText="Nombre de solicitud" />
-            <Button layoutX="766.0" layoutY="121.0" mnemonicParsing="false" onAction="#btnEnviarSolicitud" text="Enviar solicitud" />
-            <Label layoutX="2.0" layoutY="433.0" text="Impacto del cambio">
+            <TextField fx:id="tfNombreSolicitud" layoutX="8.0" layoutY="153.0" prefHeight="31.0" prefWidth="361.0" promptText="Nombre de solicitud" />
+            <Label layoutX="7.0" layoutY="408.0" prefHeight="21.0" prefWidth="135.0" text="Impacto del cambio">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <Label layoutX="6.0" layoutY="232.0" text="Descripcion del cambio">
+            <Label layoutX="8.0" layoutY="207.0" text="Descripcion del cambio">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <Label layoutX="3.0" layoutY="530.0" text="Accion propuesta">
+            <Label layoutX="9.0" layoutY="516.0" text="Accion propuesta">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <Label layoutX="2.0" layoutY="334.0" text="Razon del cambio">
+            <Label layoutX="9.0" layoutY="310.0" text="Razon del cambio">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <TextArea fx:id="taRazonCambio" layoutY="364.0" prefHeight="60.0" prefWidth="900.0" promptText="Razon del cambio" />
-            <ComboBox fx:id="cbDefecto" layoutX="444.0" layoutY="176.0" prefHeight="31.0" prefWidth="298.0" promptText="Defecto" />
-            <Label layoutX="444.0" layoutY="142.0" text="Nombre del defecto asociado:">
+            <TextArea fx:id="taRazonCambio" layoutX="7.0" layoutY="339.0" prefHeight="60.0" prefWidth="878.0" promptText="Razon del cambio" />
+            <ComboBox fx:id="cbDefecto" layoutX="444.0" layoutY="153.0" prefHeight="31.0" prefWidth="298.0" promptText="Selecciona un defecto" />
+            <Label layoutX="444.0" layoutY="119.0" text="Nombre del defecto asociado:">
                <font>
                   <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="444.0" layoutY="191.0" text="(Opcional)">
+               <font>
+                  <Font size="11.0" />
                </font>
             </Label>
          </children>
       </Pane>
+      <Button layoutX="767.0" layoutY="620.0" mnemonicParsing="false" onAction="#btnEnviarSolicitud" text="Enviar solicitud" />
    </children>
 </AnchorPane>

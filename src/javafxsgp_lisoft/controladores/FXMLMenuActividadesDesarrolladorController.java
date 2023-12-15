@@ -51,7 +51,7 @@ public class FXMLMenuActividadesDesarrolladorController implements Initializable
                 FXMLMenuPrincipalDesarrolladorController controler = loader.getController();
                 controler.inicializarInformacion(usuarioDesarrollador);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menu principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
@@ -77,7 +77,4 @@ public class FXMLMenuActividadesDesarrolladorController implements Initializable
             ex.printStackTrace();
         }
     }
-    
-
-    
 }

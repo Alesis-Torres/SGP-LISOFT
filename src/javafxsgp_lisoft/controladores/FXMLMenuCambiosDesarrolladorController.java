@@ -53,7 +53,7 @@ public class FXMLMenuCambiosDesarrolladorController implements Initializable {
           
             Stage stageActual = new Stage();
             stageActual.setScene(escena); 
-            stageActual.setTitle("Menú principal");
+            stageActual.setTitle("Formulario Solicitud Cambio");
             stageActual.initModality(Modality.APPLICATION_MODAL);
             stageActual.showAndWait();
         } catch (IOException ex) {
@@ -74,7 +74,7 @@ public class FXMLMenuCambiosDesarrolladorController implements Initializable {
             
             Stage stageActual = new Stage();
             stageActual.setScene(escena); 
-            stageActual.setTitle("Menú principal");
+            stageActual.setTitle("Registrar Cambio");
             stageActual.initModality(Modality.APPLICATION_MODAL);
             stageActual.showAndWait();
         } catch (IOException ex) {
@@ -92,11 +92,10 @@ public class FXMLMenuCambiosDesarrolladorController implements Initializable {
                 FXMLMenuPrincipalDesarrolladorController controler = loader.getController();
                 controler.inicializarInformacion(usuarioDesarrollador);
                 stageActual.setScene(escena);
-                stageActual.setTitle("Bitacora del desarrollador");
+                stageActual.setTitle("Menu principal");
                 stageActual.showAndWait();
             } catch (IOException ex) {
                 Logger.getLogger(FXMLMenuPrincipalResponsableController.class.getName()).log(Level.SEVERE, null, ex);
         } 
     }
-    
 }

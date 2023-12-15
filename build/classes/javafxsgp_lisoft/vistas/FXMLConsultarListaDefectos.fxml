@@ -23,24 +23,26 @@
                   <Font size="36.0" />
                </font>
             </Label>
-            <ImageView fitHeight="53.0" fitWidth="64.0" layoutX="52.0" layoutY="4.0" onMouseClicked="#clcRegresar" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="53.0" fitWidth="64.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clcRegresar" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../recursos/regresar.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
          </children>
       </AnchorPane>
-      <TableView fx:id="tvDefectos" layoutX="39.0" layoutY="236.0" prefHeight="334.0" prefWidth="837.0">
+      <TableView fx:id="tvDefectos" layoutX="39.0" layoutY="168.0" prefHeight="402.0" prefWidth="837.0">
         <columns>
           <TableColumn fx:id="colNombre" prefWidth="173.0" text="Nombre de defecto" />
-          <TableColumn fx:id="colTipo" prefWidth="104.0" text="Tipo de defecto" />
-            <TableColumn fx:id="colFechaDeteccion" prefWidth="87.0" text="Fecha de deteccion" />
-            <TableColumn fx:id="colEstado" prefWidth="94.0" text="Estado" />
-            <TableColumn fx:id="colResponsableReporte" prefWidth="138.0" text="Responsable de reporte" />
+          <TableColumn fx:id="colTipo" prefWidth="139.0" text="Tipo de defecto" />
+            <TableColumn fx:id="colFechaDeteccion" prefWidth="159.0" text="Fecha de deteccion" />
+            <TableColumn fx:id="colEstado" prefWidth="89.0" text="Estado" />
+            <TableColumn fx:id="colResponsableReporte" prefWidth="276.0" text="Responsable de reporte" />
         </columns>
       </TableView>
-      <Button layoutX="640.0" layoutY="101.0" mnemonicParsing="false" onAction="#btnDetalleDefecto" text="Detalles de defecto" />
-      <TextField fx:id="tfBusqueda" layoutX="39.0" layoutY="101.0" />
-      <Button fx:id="btnBusqueda" layoutX="226.0" layoutY="101.0" mnemonicParsing="false" text="Buscar" />
+      <Button layoutX="728.0" layoutY="126.0" mnemonicParsing="false" onAction="#btnDetalleDefecto" text="Detalles de defecto" />
+      <TextField fx:id="tfBusqueda" layoutX="39.0" layoutY="126.0" promptText="Buscar" />
    </children>
 </AnchorPane>

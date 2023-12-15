@@ -1,7 +1,7 @@
 /*
 *Autor: Martinez Caixba Miguel Angel
 *Fecha de creación: 28/11/2023
-*Fecha de modificación: 02/12/2023
+*Fecha de modificación: 14/12/2023
 *Descripción: Controlador para hacer la asignacion de la activivadad
 *al desarrolador
 */

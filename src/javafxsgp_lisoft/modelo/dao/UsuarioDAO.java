@@ -24,12 +24,13 @@ public class UsuarioDAO {
     Connection conexionBD = ConexionBD.obtenerConexion();
     if(conexionBD != null){
         try{
-            String consulta = "SELECT idUsuario, nombre, apellidoPaterno, "
-                    + "apellidoMaterno, correo, matricula, idProyecto "
-                    + "FROM usuario "
+            String consulta = "SELECT idUsuario, nombre, apellidoPaterno,  "
+                    + "apellidoMaterno, correo, matricula, idProyecto  "
+                    + "FROM usuario  "
                     + "INNER JOIN desarrollador "
+                    + "ON usuario.idUsuario = desarrollador.idDesarrollador "
                     + "WHERE desarrollador.matricula = ? "
-                    + "AND usuario.contrasenia = ?;";
+                    + "AND usuario.contrasenia = ?";
             PreparedStatement sentenciaPreparada 
                 = conexionBD.prepareStatement(consulta);
             sentenciaPreparada.setString(1, matricula);
@@ -69,12 +70,13 @@ public class UsuarioDAO {
     Connection conexionBD = ConexionBD.obtenerConexion();
     if(conexionBD != null){
         try{
-            String consulta = "SELECT idUsuario, nombre, apellidoPaterno, "
-                    + "apellidoMaterno, correo, numeroPersonal, idProyecto "
-                    + "FROM usuario "
+            String consulta = "SELECT idUsuario, nombre, apellidoPaterno,  "
+                    + "apellidoMaterno, correo, numeroPersonal, "
+                    + "idProyecto  FROM usuario  "
                     + "INNER JOIN responsableProyecto "
-                    + "WHERE responsableProyecto.numeroPersonal = ? "
-                    + "AND usuario.contrasenia = ?;";
+                    + "ON usuario.idUsuario = responsableproyecto.idResponsableProyecto "
+                    + "WHERE responsableproyecto.numeroPersonal = ? "
+                    + "AND usuario.contrasenia = ?";
             PreparedStatement sentenciaPreparada 
                 = conexionBD.prepareStatement(consulta);
             sentenciaPreparada.setString(1, nPersonal);
